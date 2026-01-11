@@ -1,6 +1,3 @@
-clear
-clc
-
 %%
 %prob 2 section 2
 
@@ -350,6 +347,7 @@ subplot(2, 1, 2);
 
     axis([ Month( 1 ) Month( end ) -5 4 ]);
  
+
 
 
  
