@@ -1,6 +1,3 @@
-clear
-clc
-
 data = csvread('CPI.csv',1,1);
 
 cpi = data( : , 1 );        %cpi
@@ -393,6 +390,7 @@ subplot(2, 1, 2);
     ylabel('inflation');
 
     axis([ Month( 1 ) Month( end ) -5 4 ]);
+
 
 
 
